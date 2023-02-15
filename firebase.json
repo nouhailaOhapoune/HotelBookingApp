@@ -1,0 +1,20 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "membre":{
+    "email": "input1.value",
+    "password" : "input2.value"
+  },
+  "data":{
+    "bookingdate" : "book_date.value",
+    "bookingtime" : "book_time.value",
+    "leave_date": "leave_date.value",
+    "leave_time": "leave_time.value"
+  },
+  "booking":{
+     "HotelImage": "Hotels[0].image",
+     "HotelName": "Hotels[0].name",
+     "HotelPrice": "'$' + Hotels[0].price"
+  }
+}
